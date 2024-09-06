@@ -1,4 +1,4 @@
-# Best Buy Automation Developer Assignment
+# Best Buy Automation
 
 This project is an automation script built using **Python** and **Selenium** to perform various tasks on the Best Buy website. The script is part of an automation developer assignment and includes tasks such as logging in, searching for items, interacting with product sections, and checking page elements.
 

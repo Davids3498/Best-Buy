@@ -10,7 +10,6 @@ from Utils.Section import Section
 def main():
     start_time = time.time()
 
-    user = get_random_user()
 
     automation = BestBuyAutomation()
     automation.select_state()
@@ -50,17 +49,17 @@ def main():
     # task 9
     try:
         assert automation.check_section_appearance(
-            Section.Features), f"details section for {Section.Features.value} did notappear on the screen ."
+            Section.Features), f"details section for {Section.Features.value} did not appear on the screen ."
     except Exception:
         pass
     try:
         assert automation.check_section_appearance(
-            Section.Specifications), f"details section for {Section.Specifications.value} did notappear on the screen ."
+            Section.Specifications), f"details section for {Section.Specifications.value} did not appear on the screen ."
     except Exception:
         pass
     try:
         assert automation.check_section_appearance(
-            Section.QuestionsAndAnswers), f"details section for {Section.QuestionsAndAnswers.value} did notappear on the screen ."
+            Section.QuestionsAndAnswers), f"details section for {Section.QuestionsAndAnswers.value} did not appear on the screen ."
     except Exception:
         pass
     automation.close()
