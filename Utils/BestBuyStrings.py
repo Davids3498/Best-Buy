@@ -9,9 +9,21 @@ BODY = "body"
 span = "SPAN"
 ACCOUNT_CLASS = "account-menu-account-button"
 ACCOUNT_SIGN_IN = "sign-in-btn"
-SIGN_IN_USER =  "cia-form__controls__submit"
+SIGN_IN_USER = "cia-form__controls__submit"
 SEARCH_BAR_CLASS = "gh-search-input"
 
 TIME_OUT = 10
 
 USERS_JSON_PATH = "Utils/Users.json"
+USERS = [
+    {
+        "username": "checking@percepti.co",
+        "password": "checking@percepti.co"
+    },
+    {
+        "username": "checking2@percepti.co",
+        "password": "checking2@percepti.co"
+    }
+]
+
+AUTO_COMPLETE_PRODUCT_LIST = [{'search_word':'hello','complition':'hello kitty'}]

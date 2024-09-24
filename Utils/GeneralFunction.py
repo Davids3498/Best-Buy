@@ -4,7 +4,7 @@ import random
 from Utils.BestBuyStrings import USERS_JSON_PATH
 
 
-def verify_word_in_suggestions(suggestions, word):
+def verify_word_in_all_suggestions(suggestions, word):
     return all(word in suggestion.lower() for suggestion in suggestions)
 
 
