@@ -56,6 +56,6 @@ def test_product(automation: BestBuyAutomation):
     # task 8
     automation.get_price_font_size()
     # task 9
-    for section in [Section.Features, Section.Specifications, Section.QuestionsAndAnswers]
-    assert automation.check_section_appearance(
-        section), f"details section for {section.value} did not appear on the screen ."
+    for section in [Section.Features, Section.Specifications, Section.QuestionsAndAnswers]:
+        assert automation.check_section_appearance(
+            section), f"details section for {section.value} did not appear on the screen ."
