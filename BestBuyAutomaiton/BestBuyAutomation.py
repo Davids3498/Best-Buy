@@ -1,16 +1,11 @@
 import time
 from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 from BestBuyAutomaiton.HomePage import HomePage
 from BestBuyAutomaiton.LoginPage import LoginPage
 from BestBuyAutomaiton.ProductPage import ProductPage
 from BestBuyAutomaiton.SearchPage import SearchPage
 from Utils import Section
-from Utils.BestBuyStrings import ACCOUNT_CLASS, ACCOUNT_SIGN_IN, BEST_BUY_URL, BODY, FOR_PRODUCTS_CLASS, POPUP_SECTION_CLASS, PRICE_CLASS, SEARCH_BAR_CLASS, SEARCH_COMPLETION_CLASS, SEARCH_COMPLETION_ITEM_CLASS, SIGN_IN_USER, TIME_OUT, USERNAME_INPUT_CLASS
-from Utils.GeneralFunction import clean_products_result, verify_word_in_all_suggestions
-from selenium.webdriver.common.action_chains import ActionChains
+from Utils.GeneralFunction import verify_word_in_all_suggestions
 from Utils.StateCode import Country
 
 import logging
